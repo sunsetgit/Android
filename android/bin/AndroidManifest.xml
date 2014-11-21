@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".TextViewOnClick"
+            android:name=".textview.TextViewOnClick"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,11 +27,15 @@
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".TextViewDemo"
+            android:name=".textview.TextViewDemo"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".TextViewForImg"
+            android:name=".textview.TextViewForImg"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".textview.TextRunLamp"
             android:label="@string/app_name" >
         </activity>
     </application>

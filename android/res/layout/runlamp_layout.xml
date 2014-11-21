@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 跑马灯效果 -->
+    <!--
+android:elipsize: 如果文本长度大于TextView的显示长度，则隐藏那一部分，可赋值为：none(不隐藏)、start（隐藏开始）、middle（隐藏中间）、end（隐藏结束）、marquee（滚动效果）。
+android:marqueRepeatLimit：设定需要重复动画的次数，传递一个int值，-1为无限循环。
+android:focusable：是否允许获得焦点，传递一个bool值。
+android:focusableInTouchMode：是否在获得焦点时对控件有联系，传递一个bool值
+    -->
+
+    <TextView
+        android:id="@+id/tvRunLamp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FFF"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+</LinearLayout>
