@@ -39,7 +39,7 @@ public class ButtonListener extends Activity implements OnClickListener,
 		// 对两个按钮进行事件绑定
 		btnChangeSize.setOnClickListener(this);
 		btnChangeImg.setOnClickListener(this);
-		btnChangeImg.setOnTouchListener(this);
+		//btnChangeImg.setOnTouchListener(this);
 
 	}
 
@@ -50,13 +50,14 @@ public class ButtonListener extends Activity implements OnClickListener,
 		Button btn = (Button) v;
 		if (event.getAction() == MotionEvent.ACTION_UP) {
 			// 当触摸时按下,则替换展示图片为image1
-			btn.setBackgroundResource(R.drawable.image1);
+			btn.setBackgroundResource(R.drawable.image8);
 		} else {
-			btn.setBackgroundResource(R.drawable.image4);
+			btn.setBackgroundResource(R.drawable.image9);
 		}
 		return false;
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
