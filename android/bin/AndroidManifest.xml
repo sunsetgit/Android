@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".button.ButtonListener"
+            android:name=".progressbar.ProgressBarActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,6 +48,28 @@
             android:name=".editext.Editext"
             android:label="@string/app_name" >
         </activity>
+        <!-- button -->
+        <activity
+            android:name=".button.ButtonListener"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".button.ButtonStyle"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".button.RadioButton"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".button.Checkbox"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".button.Toggle"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- progressbar -->
     </application>
 
 </manifest>

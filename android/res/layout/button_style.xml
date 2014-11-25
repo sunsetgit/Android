@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 图文混排 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal" >
+
+        <!-- 图片在上.项目中常用这样的设置 -->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/image9"
+            android:text="b1" />
+        <!-- 图片在下 -->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/image9"
+            android:text="b2" />
+        <!-- 图片在左 -->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/image9"
+            android:text="b3" />
+        <!-- 图片在右 -->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/image9"
+            android:text="b4" />
+    </LinearLayout>
+    <!-- 声明一个空的按钮.用于进行代码设置 -->
+
+    <Button
+        android:id="@+id/btnSty"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" />
+
+</LinearLayout>

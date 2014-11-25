@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checkLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 复选 ,这里只是定义了一个按钮.其他的checkbox控件在代码中动态添加 -->
+
+    <Button
+        android:id="@+id/checkBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+
+</LinearLayout>
